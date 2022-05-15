@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+ 
+}
+
+.App{
+  background-color: #111;
+}
+
+.movieContainer{
+  display: flex;
+  width: 100%;
+}
+
+.commonGenre {
+  margin-left: 5px;
+  border-radius: 4px;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+  text-align: center;
+  padding: 3px;
+}
+
+.active {
+  color: black;
+  background-color: white;
+}
